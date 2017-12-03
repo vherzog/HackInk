@@ -1,0 +1,21 @@
+if(ip.src == '10.0.0.129') {
+	if (search(DECODED.data, "700069006e0065006100700070006c0065")) {
+		msg("choice 1: pineapple!\n");
+	}
+}
+
+
+if (ip.proto == UDP) {
+	if (udp.src >= 8000 && search(DECODED.data, "Canon")) {
+		log(DECODED.data, "/tmp/etterlogFile.log");
+		msg("LOGGING UDP");
+	}
+}
+
+if (ip.proto == TCP) {
+	if (tcp.src >= 8000 && search(DECODED.data, "Canon")) {
+		log(DECODED.data, "/tmp/etterlogFileTCP.log");
+		msg("LOGGING TCP");
+	}
+}
+
