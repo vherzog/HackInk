@@ -1,25 +1,27 @@
 if (ip.proto == UDP) {
-	if (search(DATA.data, "\x70\x00\x69\x00\x6e\x00\x65")) {
+	if(udp.dst == 8611){
+		msg("Found port UDP 8611!\n");
+		log(DATA.data, "/tmp/etterlogFile8611.log");
+	}
+	# Search for string "pine" and replace with "pinp"
+	if (search(DECODED.data, "\x70\x00\x69\x00\x6e\x00\x65")) {
 		replace("\x70\x00\x69\x00\x6e\x00\x65","\x70\x00\x69\x00\x6e\x00\x70");
 		msg("found pine UDP!\n");
 		log(DATA.data, "/tmp/etterlogFilePine.log");
 	}
-	if (search(DECODED.data, "BJNP")) {
-		log(DATA.data, "/tmp/DoSUDP.log");
-		drop();
-		msg("drop UDP");
-	}
 }
 
 if (ip.proto == TCP) {
+	if(tcp.dst == 8611){
+		msg("Found port TCP 8611!\n");
+		log(DECODED.data, "/tmp/etterlogFileTCP8611.log");
+	}
+	# Search for string "pine" and replace with "pinp"
 	if (search(DATA.data, "\x70\x00\x69\x00\x6e\x00\x65")) {
 		replace("\x70\x00\x69\x00\x6e\x00\x65","\x70\x00\x69\x00\x6e\x00\x70");
 		msg("Found pine TCP!\n");
 		log(DATA.data, "/tmp/etterlogFileTCPPine.log");
 	}
-	if (search(DECODED.data, "BJNP")) {
-		drop();
-		log(DATA.data, "/tmp/DoSTCP.log");
-		msg("drop TCP");
-	}
 }
+
+
