@@ -1,0 +1,21 @@
+if (ip.proto == UDP) {
+	if (search(DECODED.data, "BJNP")) {
+		log(DATA.data, "/tmp/NameUDP.log");
+		msg("found BJNP UDP");
+	}
+	if (search(DATA.data, "BJNP")) {
+		log(DATA.data, "/tmp/NameUDP.log");
+		msg("found BJNP Data UDP");
+	}
+}
+
+if (ip.proto == TCP) {
+	if (search(DECODED.data, "BJNP")) {	
+		log(DATA.data, "/tmp/NameTCP.log");
+		msg("found BJNP TCP");
+	}
+	if (search(DATA.data, "BJNP")) {	
+		log(DATA.data, "/tmp/NameTCP.log");
+		msg("found BJNP Data TCP");
+	}
+}
