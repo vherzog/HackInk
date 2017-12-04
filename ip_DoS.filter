@@ -1,20 +1,17 @@
 if (ip.proto == UDP) {
-	msg("UDP");
-	if (search(DECODED.data, "BJNP")) {
+    if (search(DECODED.data, "BJNP")) {
 		log(DATA.data, "/tmp/DoSUDP.log");
 		drop();
-		msg("drop UDP");
+		msg("BJNP (udp) packet found");
+        msg("Dropping packet now...");
 	}
-	log(DATA.data, "/tmp/LogUDP.log");
 }
 
 if (ip.proto == TCP) {
-	msg("TCP");
 	if (search(DECODED.data, "BJNP")) {
 		drop();
 		log(DATA.data, "/tmp/DoSTCP.log");
-		msg("drop TCP");
+        msg("BJNP (udp) packet found");
+        msg("Dropping packet now...");
 	}
-	log(DATA.data, "/tmp/LogTCP.log");
-
 }

