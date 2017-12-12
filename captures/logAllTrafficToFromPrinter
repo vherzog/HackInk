@@ -1,0 +1,1331 @@
+
+[1metterlog 0.8.2[0m copyright 2001-2017 Ettercap Development Team
+
+
+
+Tue Dec 12 17:53:46 2017 [679594]
+  10.0.0.147:0 --> 10.0.0.211:0 |  (0)
+
+
+Tue Dec 12 17:53:46 2017 [681518]
+  10.0.0.54:0 --> 10.0.0.147:0 |  (0)
+
+
+Tue Dec 12 17:53:46 2017 [769241]
+  10.0.0.147:0 --> 10.0.0.54:0 |  (0)
+
+
+Tue Dec 12 17:53:46 2017 [769431]
+  10.0.0.147:0 --> 10.0.0.1:0 |  (0)
+
+
+Tue Dec 12 17:53:53 2017 [570315]
+UDP  10.0.0.202:5353 --> 224.0.0.251:5353 |  (61)
+Canon MG3600 series_canon-bjnp1_tcplocal!
+
+Tue Dec 12 17:53:53 2017 [603743]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (173)
+Canon MG3600 series_canon-bjnp1_tcplocal!x!DAE31F0000002Ix
+IxI/xI@/x	@
+
+Tue Dec 12 17:53:53 2017 [677342]
+UDP  10.0.0.147:5353 --> 10.0.0.202:5353 |  (132)
+Canon MG3600 series_canon-bjnp1_tcplocal!x!DAE31F0000002Ix
+Ix
+
+Tue Dec 12 17:53:53 2017 [799623]
+UDP  10.0.0.202:61009 --> 10.0.0.147:8611 |  (16)
+BJNP
+
+Tue Dec 12 17:53:53 2017 [830228]
+UDP  10.0.0.147:8611 --> 10.0.0.202:61009 |  (32)
+BJNP
+
+
+Tue Dec 12 17:53:53 2017 [847434]
+UDP  10.0.0.202:63337 --> 10.0.0.147:8611 |  (20)
+BJNP0
+
+Tue Dec 12 17:53:53 2017 [879875]
+UDP  10.0.0.147:8611 --> 10.0.0.202:63337 |  (259)
+BJNP0MFG:Canon;CMD:BJL,BJRaster3,BSCCe,NCCe,IVEC,IVECPLI;SOJ:BJNP2,BJNPe;MDL:MG3600 series;CLS:PRINTER;DES:Canon MG3600 series;VER:2.040;STA:10;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;PSE:KLAE97470;CID:CA_IVEC1TYPE4_IJP;
+
+Tue Dec 12 17:53:54 2017 [371313]
+UDP  10.0.0.202:50495 --> 10.0.0.147:8611 |  (408)
+BJNPVeronica s MacBook AirVeronica Herzogpizza is life
+
+Tue Dec 12 17:53:54 2017 [415632]
+UDP  10.0.0.147:8611 --> 10.0.0.202:50495 |  (20)
+BJNP
+
+Tue Dec 12 17:53:54 2017 [426014]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (242)
+Canon MG3600 series_scanner_tcplocal	txtvers=1ty=Canon MG3600 series#adminurl=http://DAE31F000000.local.	mfg=Canonmdl=MG3600 series)UUID=00000000-0000-1000-8000-00BBC1DAE31FscannerAvailable=0/	@
+
+Tue Dec 12 17:53:54 2017 [488855]
+UDP  10.0.0.202:50495 --> 10.0.0.147:8611 |  (16)
+BJNP 
+
+Tue Dec 12 17:53:54 2017 [506010]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | S (0)
+
+
+Tue Dec 12 17:53:54 2017 [513812]
+UDP  10.0.0.147:8611 --> 10.0.0.202:50495 |  (950)
+BJNP <?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>idle</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:04;PID:00,00,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:NO;DBS:NO;DWS:1499;DOC:4,00,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:53:54 2017 [547111]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | SA (0)
+
+
+Tue Dec 12 17:53:54 2017 [610316]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:54 2017 [610372]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (20)
+BJNP0
+
+Tue Dec 12 17:53:54 2017 [645111]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:54 2017 [645167]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (259)
+BJNP0MFG:Canon;CMD:BJL,BJRaster3,BSCCe,NCCe,IVEC,IVECPLI;SOJ:BJNP2,BJNPe;MDL:MG3600 series;CLS:PRINTER;DES:Canon MG3600 series;VER:2.040;STA:10;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;PSE:KLAE97470;CID:CA_IVEC1TYPE4_IJP;
+
+Tue Dec 12 17:53:54 2017 [669131]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:54 2017 [669188]
+UDP  10.0.0.202:50495 --> 10.0.0.147:8611 |  (16)
+BJNPP
+
+Tue Dec 12 17:53:54 2017 [698421]
+UDP  10.0.0.147:8611 --> 10.0.0.202:50495 |  (20)
+BJNPPxm
+
+Tue Dec 12 17:53:54 2017 [714209]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNPQ
+
+Tue Dec 12 17:53:54 2017 [761775]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:54 2017 [761834]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNPQ
+
+Tue Dec 12 17:53:54 2017 [830363]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:54 2017 [906322]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (20)
+BJNP0
+
+Tue Dec 12 17:53:54 2017 [943550]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:54 2017 [943615]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (259)
+BJNP0MFG:Canon;CMD:BJL,BJRaster3,BSCCe,NCCe,IVEC,IVECPLI;SOJ:BJNP2,BJNPe;MDL:MG3600 series;CLS:PRINTER;DES:Canon MG3600 series;VER:2.040;STA:10;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;PSE:KLAE97470;CID:CA_IVEC1TYPE4_IJP;
+
+Tue Dec 12 17:53:55 2017 [375259]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:55 2017 [427296]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (17)
+BJNP!
+
+Tue Dec 12 17:53:55 2017 [428289]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (242)
+Canon MG3600 series_scanner_tcplocal	txtvers=1ty=Canon MG3600 series#adminurl=http://DAE31F000000.local.	mfg=Canonmdl=MG3600 series)UUID=00000000-0000-1000-8000-00BBC1DAE31FscannerAvailable=0/	@
+
+Tue Dec 12 17:53:55 2017 [478795]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:55 2017 [478851]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!
+
+Tue Dec 12 17:53:55 2017 [478869]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (17)
+BJNP!
+
+Tue Dec 12 17:53:55 2017 [520561]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:55 2017 [534625]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:55 2017 [534683]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:53:55 2017 [565400]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:55 2017 [565462]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (950)
+BJNP <?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>idle</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:04;PID:00,00,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:NO;DBS:NO;DWS:1499;DOC:4,00,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:53:55 2017 [586196]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:55 2017 [588576]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (305)
+BJNP!	!<?xml version="1.0" encoding="utf-8" ?><cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"><ivec:contents><ivec:operation>StartJob</ivec:operation><ivec:param_set servicetype="print"><ivec:jobID>00000001</ivec:jobID><ivec:bidi>1</ivec:bidi></ivec:param_set></ivec:contents></cmd>
+
+Tue Dec 12 17:53:55 2017 [622302]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:55 2017 [622366]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!	!
+
+Tue Dec 12 17:53:55 2017 [698502]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:56 2017 [174700]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+
+Tue Dec 12 17:53:56 2017 [203678]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:56 2017 [232950]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (365)
+BJNP 
+]<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/">
+<ivec:contents>
+<ivec:operation>StartJobResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:jobID>00000001</ivec:jobID>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:53:56 2017 [273775]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:57 2017 [253210]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:53:57 2017 [305976]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:57 2017 [313115]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:04;PID:00,00,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:NO;DBS:NO;DWS:1499;DOC:4,00,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:53:57 2017 [337316]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:57 2017 [337373]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (407)
+BJNP!<?xml version="1.0" encoding="utf-8" ?><cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/" xmlns:vcn="http://www.canon.com/ns/cmd/2008/07/canon/"><ivec:contents><ivec:operation>VendorCmd</ivec:operation><ivec:param_set servicetype="print"><ivec:jobID>00000001</ivec:jobID><vcn:ijoperation>ModeShift</vcn:ijoperation><vcn:ijmode>1</vcn:ijmode></ivec:param_set></ivec:contents></cmd>
+
+Tue Dec 12 17:53:57 2017 [366111]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:57 2017 [366168]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!
+
+Tue Dec 12 17:53:57 2017 [423880]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (242)
+Canon MG3600 series_scanner_tcplocal	txtvers=1ty=Canon MG3600 series#adminurl=http://DAE31F000000.local.	mfg=Canonmdl=MG3600 series)UUID=00000000-0000-1000-8000-00BBC1DAE31FscannerAvailable=0/	@
+
+Tue Dec 12 17:53:57 2017 [441728]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:58 2017 [255488]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (20)
+BJNP0
+
+Tue Dec 12 17:53:58 2017 [285896]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:58 2017 [285953]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (259)
+BJNP0MFG:Canon;CMD:BJL,BJRaster3,BSCCe,NCCe,IVEC,IVECPLI;SOJ:BJNP2,BJNPe;MDL:MG3600 series;CLS:PRINTER;DES:Canon MG3600 series;VER:2.040;STA:10;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;PSE:KLAE97470;CID:CA_IVEC1TYPE4_IJP;
+
+Tue Dec 12 17:53:58 2017 [318212]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:58 2017 [318269]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:53:58 2017 [353671]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:58 2017 [353728]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (567)
+BJNP '<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:vcn="http://www.canon.com/ns/cmd/2008/07/canon/">
+<ivec:contents>
+<ivec:operation>VendorCmdResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:jobID>00000001</ivec:jobID>
+<vcn:ijoperation>ModeShiftResponse</vcn:ijoperation>
+<vcn:ijmode>1</vcn:ijmode>
+<vcn:ijresponse>OK</vcn:ijresponse>
+<vcn:ijresponse_detail/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:53:58 2017 [382795]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:59 2017 [394163]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:53:59 2017 [512301]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:59 2017 [512369]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:04;PID:00,00,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:NO;DBS:NO;DWS:1499;DOC:4,00,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:53:59 2017 [529170]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:53:59 2017 [535639]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (109)
+BJNP!]XVSSR=BST,PID,CHD,LVR,MID,CTK,CIR,DJS,DBS,DWS,DOC,DSC,FSI,HRI,MSI,PDR,HRC,DSI,TCA,RRC;
+
+Tue Dec 12 17:53:59 2017 [562447]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:53:59 2017 [562503]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!]
+
+Tue Dec 12 17:53:59 2017 [634651]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:00 2017 [504770]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:54:00 2017 [558226]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:00 2017 [559477]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:04;PID:00,00,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:NO;DBS:NO;DWS:1499;DOC:4,00,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:00 2017 [598900]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:00 2017 [691153]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (85)
+BJNP!EBJLSTART
+Controlmode = Common
+SetTime = 20171212125400
+BJLEND
+
+
+Tue Dec 12 17:54:00 2017 [724004]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:00 2017 [724058]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!E
+
+Tue Dec 12 17:54:00 2017 [779088]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:00 2017 [779762]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (79)
+BJNP!?BJLSTART
+CONTROLMODE=COMMON
+FORCEPWDETECTION=OFF
+BJLEND
+
+
+Tue Dec 12 17:54:00 2017 [794367]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:00 2017 [794422]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!?
+
+Tue Dec 12 17:54:00 2017 [850116]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:00 2017 [922603]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (164)
+BJNP!(b(dXX(t*(c0(p.XF(l8(u(v
+
+Tue Dec 12 17:54:00 2017 [958368]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:00 2017 [958422]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!
+
+Tue Dec 12 17:54:01 2017 [18798]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:01 2017 [429591]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (242)
+Canon MG3600 series_scanner_tcplocal	txtvers=1ty=Canon MG3600 series#adminurl=http://DAE31F000000.local.	mfg=Canonmdl=MG3600 series)UUID=00000000-0000-1000-8000-00BBC1DAE31FscannerAvailable=0/	@
+
+Tue Dec 12 17:54:01 2017 [519683]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (1460)
+BJNP!(s(q($(b(I(J(e1(LK(F,**
+(F*****
+*
+** ****(F********
+
+*
+(FE***
+	*
+**	*
+**	*****
+	*****	***	***	*
+
+
+
+
+*
+*
+(Fw*
+*
+**
+*
+
+*
+**
+****
+**
+***
+
+*****
+
+Tue Dec 12 17:54:01 2017 [527716]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (1460)
+*
+
+******
+*
+
+*
+**
+*
+
+****
+*
+(F8*
+**
+**
+***
+
+***
+
+****
+**
+**
+
+***
+*******
+
+****(FE
+*****
+*
+****
+
+*****
+****
+*
+***
+****
+*
+*
+**
+*
+*
+****
+(F*
+
+Tue Dec 12 17:54:01 2017 [529523]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (1137)
+***
+***
+****
+
+
+
+*
+**
+***
+
+***
+****
+**
+
+*****(F*******
+*****
+*
+
+**
+*
+**
+*
+*
+*
+***
+(F0(F&(e(b
+
+Tue Dec 12 17:54:01 2017 [544368]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!
+
+Tue Dec 12 17:54:01 2017 [574456]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:01 2017 [610154]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:01 2017 [610211]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:54:01 2017 [647326]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:01 2017 [648727]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:02,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:LD;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:01 2017 [678585]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:02 2017 [686271]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:54:02 2017 [729392]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:02 2017 [729453]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:02,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:LD;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:02 2017 [762180]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:02 2017 [762246]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (20)
+BJNP0
+
+Tue Dec 12 17:54:02 2017 [812005]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:02 2017 [813348]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (259)
+BJNP0MFG:Canon;CMD:BJL,BJRaster3,BSCCe,NCCe,IVEC,IVECPLI;SOJ:BJNP2,BJNPe;MDL:MG3600 series;CLS:PRINTER;DES:Canon MG3600 series;VER:2.040;STA:10;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;PSE:KLAE97470;CID:CA_IVEC1TYPE4_IJP;
+
+Tue Dec 12 17:54:02 2017 [843315]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:02 2017 [922676]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (18)
+BJNP!@
+
+Tue Dec 12 17:54:02 2017 [976382]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:02 2017 [976441]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!
+
+Tue Dec 12 17:54:03 2017 [34224]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:03 2017 [722535]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:54:03 2017 [776032]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:03 2017 [776184]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:02,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:LD;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:03 2017 [802107]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:04 2017 [762212]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:54:04 2017 [807100]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:04 2017 [807652]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:02,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:LD;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:04 2017 [838266]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:05 2017 [830654]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:54:05 2017 [897883]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:05 2017 [898481]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:02,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:LD;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:05 2017 [922078]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:06 2017 [42223]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (20)
+BJNP0
+
+Tue Dec 12 17:54:06 2017 [88356]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:06 2017 [88983]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (259)
+BJNP0MFG:Canon;CMD:BJL,BJRaster3,BSCCe,NCCe,IVEC,IVECPLI;SOJ:BJNP2,BJNPe;MDL:MG3600 series;CLS:PRINTER;DES:Canon MG3600 series;VER:2.040;STA:10;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;PSE:KLAE97470;CID:CA_IVEC1TYPE4_IJP;
+
+Tue Dec 12 17:54:06 2017 [146343]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:06 2017 [921300]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:54:06 2017 [963121]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:06 2017 [963316]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:02,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:LD;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:07 2017 [2240]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:08 2017 [22226]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP 
+
+Tue Dec 12 17:54:08 2017 [74173]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:08 2017 [79307]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:02,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:LD;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:08 2017 [102096]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:09 2017 [38257]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP  
+
+Tue Dec 12 17:54:09 2017 [64416]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:09 2017 [64477]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP  %<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:03,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:EJ;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:09 2017 [103275]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:09 2017 [423630]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (242)
+Canon MG3600 series_scanner_tcplocal	txtvers=1ty=Canon MG3600 series#adminurl=http://DAE31F000000.local.	mfg=Canonmdl=MG3600 series)UUID=00000000-0000-1000-8000-00BBC1DAE31FscannerAvailable=0/	@
+
+Tue Dec 12 17:54:10 2017 [98586]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP !
+
+Tue Dec 12 17:54:10 2017 [124114]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:10 2017 [125723]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP !%<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:03,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:EJ;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:10 2017 [158481]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:10 2017 [478133]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (20)
+BJNP0"
+
+Tue Dec 12 17:54:10 2017 [506032]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:10 2017 [506099]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (259)
+BJNP0"MFG:Canon;CMD:BJL,BJRaster3,BSCCe,NCCe,IVEC,IVECPLI;SOJ:BJNP2,BJNPe;MDL:MG3600 series;CLS:PRINTER;DES:Canon MG3600 series;VER:2.040;STA:10;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;PSE:KLAE97470;CID:CA_IVEC1TYPE4_IJP;
+
+Tue Dec 12 17:54:10 2017 [538311]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:11 2017 [174096]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP #
+
+Tue Dec 12 17:54:11 2017 [210783]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:11 2017 [210906]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP #%<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:03,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:EJ;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:11 2017 [246096]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:11 2017 [927807]
+UDP  10.0.0.202:17500 --> 255.255.255.255:17500 |  (164)
+{"host_int": 118293813370704948933135925307383194233, "version": [2, 0], "displayname": "", "port": 17500, "namespaces": [88318200, 1851887696, 53402321, 86169359]}
+
+Tue Dec 12 17:54:12 2017 [275488]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP $
+
+Tue Dec 12 17:54:12 2017 [305384]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:12 2017 [305566]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP $%<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:03,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:EJ;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:12 2017 [338216]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:13 2017 [350099]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP %
+
+Tue Dec 12 17:54:13 2017 [457180]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:13 2017 [457239]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP %%<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:84;PID:03,01,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:EJ;DBS:NO;DWS:1499;DOC:5,01,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:13 2017 [518124]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:14 2017 [402143]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP &
+
+Tue Dec 12 17:54:14 2017 [509442]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:14 2017 [509501]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (1077)
+BJNP &%<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+xmlns:cijn="http://www.canon.com/ns/wdp/2008/01/print/">
+<ivec:contents>
+<ivec:operation>GetStatusResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:status>processing</ivec:status>
+<ivec:status_detail>MarkerSupplyAttention</ivec:status_detail>
+<ivec:jobstatus>
+<ivec:jobID>00000001</ivec:jobID>
+<ivec:jobprogress>processing</ivec:jobprogress>
+</ivec:jobstatus>
+<cijn:IJPrinterStatus>
+<cijn:Name>BSCCe</cijn:Name>
+<cijn:ReadData>BST:04;PID:00,00,00;CHD:CLM,BK;LVR:GAL,AT;MID:E75852;CTK:CL,LLOW,/,BK,SET;CIR:CL=000,BK=090;DJS:NO;DBS:NO;DWS:1499;DOC:4,00,NO;DSC:NO;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;HRC:NO;TCA:CL,AC,/,BK,AC;DSI:21,0010,/,31,001E,/,2F,0005,/,3F,0008;RRC:RR,DR;</cijn:ReadData>
+<cijn:NumberOfBytes>277</cijn:NumberOfBytes>
+</cijn:IJPrinterStatus>
+<ivec:current_support_code/>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:14 2017 [542128]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:14 2017 [882393]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (20)
+BJNP0'
+
+Tue Dec 12 17:54:14 2017 [974756]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:14 2017 [987258]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (259)
+BJNP0'MFG:Canon;CMD:BJL,BJRaster3,BSCCe,NCCe,IVEC,IVECPLI;SOJ:BJNP2,BJNPe;MDL:MG3600 series;CLS:PRINTER;DES:Canon MG3600 series;VER:2.040;STA:10;FSI:00;HRI:2;MSI:AOFF,B240,DAT,E3,HFSF,JTIME,K21000700,LOFF;PDR:3;PSE:KLAE97470;CID:CA_IVEC1TYPE4_IJP;
+
+Tue Dec 12 17:54:15 2017 [30287]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:15 2017 [127471]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (32)
+BJNP!(	SSR=DF;
+
+Tue Dec 12 17:54:15 2017 [194219]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:15 2017 [218630]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!(
+
+Tue Dec 12 17:54:15 2017 [292418]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:15 2017 [293255]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (279)
+BJNP!)<?xml version="1.0" encoding="utf-8" ?><cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"><ivec:contents><ivec:operation>EndJob</ivec:operation><ivec:param_set servicetype="print"><ivec:jobID>00000001</ivec:jobID></ivec:param_set></ivec:contents></cmd>
+
+Tue Dec 12 17:54:15 2017 [345134]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:15 2017 [345193]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (20)
+BJNP!)
+
+Tue Dec 12 17:54:15 2017 [446489]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:15 2017 [479100]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | AP (16)
+BJNP *
+
+Tue Dec 12 17:54:15 2017 [509297]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:15 2017 [510013]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | AP (363)
+BJNP *[<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/">
+<ivec:contents>
+<ivec:operation>EndJobResponse</ivec:operation>
+<ivec:param_set servicetype="print">
+<ivec:response>OK</ivec:response>
+<ivec:response_detail/>
+<ivec:jobID>00000001</ivec:jobID>
+</ivec:param_set>
+</ivec:contents>
+</cmd>
+
+Tue Dec 12 17:54:15 2017 [628953]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:16 2017 [463748]
+UDP  10.0.0.202:50495 --> 10.0.0.147:8611 |  (16)
+BJNP+
+
+Tue Dec 12 17:54:16 2017 [486337]
+UDP  10.0.0.147:8611 --> 10.0.0.202:50495 |  (16)
+BJNP+
+
+Tue Dec 12 17:54:16 2017 [522616]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | FA (0)
+
+
+Tue Dec 12 17:54:16 2017 [556664]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (242)
+Canon MG3600 series_scanner_tcplocal	txtvers=1ty=Canon MG3600 series#adminurl=http://DAE31F000000.local.	mfg=Canonmdl=MG3600 series)UUID=00000000-0000-1000-8000-00BBC1DAE31FscannerAvailable=1/	@
+
+Tue Dec 12 17:54:16 2017 [677690]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | A (0)
+
+
+Tue Dec 12 17:54:16 2017 [677747]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | FA (0)
+
+
+Tue Dec 12 17:54:16 2017 [926674]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | FA (0)
+
+
+Tue Dec 12 17:54:16 2017 [926732]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:16 2017 [982322]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | FA (0)
+
+
+Tue Dec 12 17:54:17 2017 [52686]
+TCP  10.0.0.202:50464 --> 10.0.0.147:8611 | A (0)
+
+
+Tue Dec 12 17:54:17 2017 [102229]
+TCP  10.0.0.147:8611 --> 10.0.0.202:50464 | R (0)
+
+
+Tue Dec 12 17:54:17 2017 [558105]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (242)
+Canon MG3600 series_scanner_tcplocal	txtvers=1ty=Canon MG3600 series#adminurl=http://DAE31F000000.local.	mfg=Canonmdl=MG3600 series)UUID=00000000-0000-1000-8000-00BBC1DAE31FscannerAvailable=1/	@
+
+Tue Dec 12 17:54:19 2017 [557347]
+UDP  10.0.0.147:5353 --> 224.0.0.251:5353 |  (242)
+Canon MG3600 series_scanner_tcplocal	txtvers=1ty=Canon MG3600 series#adminurl=http://DAE31F000000.local.	mfg=Canonmdl=MG3600 series)UUID=00000000-0000-1000-8000-00BBC1DAE31FscannerAvailable=1/	@
+
